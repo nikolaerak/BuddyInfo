@@ -6,11 +6,12 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-@org.springframework.stereotype.Controller
-public class Controller {
+@Controller
+public class AddressBookController {
 	
 	@Autowired
 	AddressBookRepository addressBookRepository;

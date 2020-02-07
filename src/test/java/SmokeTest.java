@@ -1,4 +1,4 @@
-import main.Controller;
+import main.AddressBookController;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,10 +11,10 @@ import static org.junit.Assert.assertNotNull;
 public class SmokeTest {
 
     @Autowired
-    private Controller controller;
+    private AddressBookController addressBookController;
 
     @Test
     public void contextLoads() throws Exception {
-        assertNotNull(controller);
+        assertNotNull(addressBookController);
     }
 }
