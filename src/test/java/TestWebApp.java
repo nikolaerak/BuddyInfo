@@ -2,6 +2,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import main.JPAApplication;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +13,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-@SpringBootTest
+@SpringBootTest(classes={JPAApplication.class})
 @AutoConfigureMockMvc
 public class TestWebApp {
 
