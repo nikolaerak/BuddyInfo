@@ -20,23 +20,6 @@ public class AddressBookController {
 	BuddyInfoRepository buddyInfoRepository;
 
 
-    @GetMapping("/home")
-    public String greeting(Model model) {
-        Iterable<AddressBook> books = addressBookRepository.findAll();
-        List<Long> ids = new ArrayList<>();
-        for(AddressBook a: books) {
-            ids.add(a.getId());
-            model.addAttribute("ids", ids);
-        }
-        return "addressbooks";
-    }
-    @GetMapping("/home/{id}")
-    public String greeting(@PathVariable("id") Long id, Model model) {
-        model.addAttribute("buddies", addressBookRepository.findById(id).get().getInfo());
-        return "addressbook";
-    }
-
-
     @GetMapping("/address-book")
     public Iterable<AddressBook> address() {
         return addressBookRepository.findAll();
