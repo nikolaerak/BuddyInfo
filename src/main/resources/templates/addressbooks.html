@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-    <p th:text="'BuddyInfo name:, ' + ${name} + '!'" />
+    <p> List of address books </p>
+    <a th:each="lid : ${ids}" th:text="${lid} " th:href="|/home/${lid}|"></a>
 </body>
 </html>

@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 public class AddressBook {
 
-    private Integer Id;
+    private Long Id;
     private List<BuddyInfo> info;
 
     public AddressBook() {
@@ -28,7 +28,7 @@ public class AddressBook {
 
     @Id
     @GeneratedValue
-    public Integer getId() {
+    public Long getId() {
         return this.Id;
     }
 
@@ -41,7 +41,7 @@ public class AddressBook {
         this.info = info;
     }
 
-    public void setId(Integer id){
+    public void setId(Long id){
         Id = id;
     }
 

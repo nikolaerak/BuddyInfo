@@ -7,7 +7,7 @@ import javax.persistence.Id;
 @Entity
 public class BuddyInfo {
 
-    private Integer Id;
+    private Long Id;
     private String address;
     private String phoneNumber;
     private String name;
@@ -22,7 +22,7 @@ public class BuddyInfo {
 
     @Id
     @GeneratedValue
-    public Integer getId() {
+    public Long getId() {
         return this.Id;
     }
 
@@ -38,7 +38,7 @@ public class BuddyInfo {
         return name;
     }
 
-    public void setId(Integer newID) {
+    public void setId(Long newID) {
         this.Id = newID;
     }
 
