@@ -23,7 +23,7 @@ public class TestWebApp {
     @Test
     @Order(1)
     public void testGetAddressBook_none() throws Exception {
-        this.mockMvc.perform(MockMvcRequestBuilders.get("/addressbooks")
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/address-book")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("[]")));
@@ -32,18 +32,9 @@ public class TestWebApp {
     @Test
     @Order(2)
     public void testCreateAddressBook() throws Exception {
-        this.mockMvc.perform(MockMvcRequestBuilders.post("/addressbook")
+        this.mockMvc.perform(MockMvcRequestBuilders.post("/address-book")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("{\"id\":1, \"buddies\":[]}")));
-    }
-
-    @Test
-    @Order(3)
-    public void testGetAddressBook() throws Exception {
-        this.mockMvc.perform(MockMvcRequestBuilders.get("/addressbooks")
-                .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("{\"id\":1, \"buddies\":[]}")));
+                .andExpect(content().string(equalTo("{\"info\":[],\"id\":1}")));
     }
 }

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f8b517-90ea-450b-890a-1b0be6860ac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/JPAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/JPAApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/AddressBookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AddressBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWebApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,7 +133,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
-          <entry key="html" value="11" />
+          <entry key="html" value="12" />
           <entry key="java" value="20" />
           <entry key="xml" value="2" />
           <entry key="yml" value="1" />
@@ -140,7 +141,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="12" />
           <entry key="JAVA" value="20" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
@@ -151,16 +152,18 @@
         <counts>
           <entry key="dummy" value="15" />
           <entry key="html" value="191" />
-          <entry key="java" value="1317" />
+          <entry key="java" value="1345" />
           <entry key="txt" value="10" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="191" />
-          <entry key="JAVA" value="1317" />
+          <entry key="JAVA" value="1345" />
           <entry key="PLAIN_TEXT" value="25" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="67" />
         </counts>
       </usages-collector>
@@ -168,18 +171,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/AddressBookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#853#854#0" expanded="true" />
                 <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressbooks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -187,8 +197,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -209,7 +219,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/main/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -218,7 +228,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/HttpRequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+              <caret line="9" column="91" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,11 +248,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestWebApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+            <state relative-caret-position="434">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,7 +316,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/addressbooks.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" />
         <option value="$PROJECT_DIR$/src/main/java/Test/TestWebApp.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/main/TestWebApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/SmokeTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
@@ -320,8 +329,9 @@
         <option value="$PROJECT_DIR$/src/main/java/main/JPAApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/SmokeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestWebApp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/main/AddressBookController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestWebApp.java" />
       </list>
     </option>
   </component>
@@ -442,7 +452,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581111791537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581113365137" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -553,7 +563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JPAApplication (1)">
+  <component name="RunManager" selected="JUnit.TestWebApp">
     <configuration name="HttpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="accessing-data-rest" />
       <option name="PACKAGE_NAME" value="" />
@@ -613,8 +623,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.JPAApplication (1)" />
         <item itemvalue="JUnit.TestWebApp" />
+        <item itemvalue="Spring Boot.JPAApplication (1)" />
         <item itemvalue="JUnit.HttpRequestTest" />
         <item itemvalue="JUnit.SmokeTest" />
         <item itemvalue="Spring Boot.JPAApplication" />
@@ -635,7 +645,7 @@
       <workItem from="1579286576214" duration="4959000" />
       <workItem from="1579891222201" duration="8661000" />
       <workItem from="1581017658289" duration="9247000" />
-      <workItem from="1581100213749" duration="11531000" />
+      <workItem from="1581100213749" duration="13106000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1581105563492</created>
@@ -648,21 +658,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BuddyInfoTest - 2020.01.10 at 14h 37m 46s.xml">
-      <configuration name="BuddyInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JPATest - 2020.01.17 at 15h 00m 30s.xml">
-      <configuration name="JPATest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpRequestTest - 2020.02.07 at 16h 13m 21s.xml">
-      <configuration name="HttpRequestTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWebApp - 2020.02.07 at 16h 14m 32s.xml">
-      <configuration name="TestWebApp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpRequestTest - 2020.02.07 at 16h 15m 51s.xml">
-      <configuration name="HttpRequestTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SmokeTest - 2020.02.07 at 16h 34m 06s.xml">
       <configuration name="SmokeTest" configurationId="JUnit" />
     </history-entry>
@@ -678,9 +673,24 @@
     <history-entry file="TestWebApp - 2020.02.07 at 16h 36m 59s.xml">
       <configuration name="TestWebApp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestWebApp - 2020.02.07 at 16h 50m 19s.xml">
+      <configuration name="TestWebApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebApp - 2020.02.07 at 17h 03m 16s.xml">
+      <configuration name="TestWebApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebApp - 2020.02.07 at 17h 06m 09s.xml">
+      <configuration name="TestWebApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebApp - 2020.02.07 at 17h 07m 58s.xml">
+      <configuration name="TestWebApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebApp - 2020.02.07 at 17h 09m 07s.xml">
+      <configuration name="TestWebApp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38221000" />
+    <option name="totallyTimeSpent" value="39796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -790,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressbooks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressbook.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -846,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/JPAApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -860,6 +856,32 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressbooks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -873,20 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestWebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HttpRequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+          <caret line="9" column="91" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -896,20 +908,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/main/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/AddressBookController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="434">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
 public class AddressBookController {
 	
 	@Autowired
@@ -37,19 +37,19 @@ public class AddressBookController {
     }
 
 
-    @GetMapping("/addressbooks")
+    @GetMapping("/address-book")
     public Iterable<AddressBook> address() {
         return addressBookRepository.findAll();
     }
 
-    @PostMapping("/addressbook")
+    @PostMapping("/address-book")
     public AddressBook addressBook() {
         AddressBook ab = new AddressBook();
         ab = addressBookRepository.save(ab);
         return ab;
     }
     
-    @GetMapping("addressbook/{id}")
+    @GetMapping("/address-book/{id}")
     public AddressBook getAddressBookById(@PathVariable("id") Long id){
         Optional<AddressBook> oAddressBook = addressBookRepository.findById(id);
         if (oAddressBook.isPresent()){
@@ -59,22 +59,7 @@ public class AddressBookController {
         }
     }
     
-    @GetMapping("buddyinfos")
-    public Iterable<BuddyInfo> buddy() {
-        return buddyInfoRepository.findAll();
-    }
-    
-    @GetMapping("addressbook/buddyinfo/{id}")
-    public BuddyInfo getBuddyInfoById(@PathVariable("id") Long id){
-        Optional<BuddyInfo> buddy = buddyInfoRepository.findById(id);
-        if (buddy.isPresent()){
-            return buddy.get();
-        } else {
-            throw new ResourceNotFoundException();
-        }
-    }
-    
-    @PostMapping("addressbook/{id}/buddyinfo")
+    @PostMapping("/address-book/{id}/buddyinfo")
     public BuddyInfo addBuddyInfo(@PathVariable("id") Long id, @RequestBody BuddyInfo buddyinfo) {
         Optional<AddressBook> a = addressBookRepository.findById(id);
         if(!a.isPresent()) {
@@ -87,10 +72,4 @@ public class AddressBookController {
         addressBookRepository.save(ab);
         return buddyinfo;
     }
-
-    @DeleteMapping("addressbook/{id}/buddyinfo/{buddyId}")
-    public void removeBuddy(@PathVariable("id") Long id, @PathVariable("buddyId") Long buddyId) {
-        buddyInfoRepository.deleteById(buddyId);
-    }
-
 }
