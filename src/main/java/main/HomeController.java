@@ -17,7 +17,7 @@ public class HomeController {
 
     @Autowired
     BuddyInfoRepository buddyInfoRepository;
-    
+
     @GetMapping("/home")
     public String greeting(Model model) {
         Iterable<AddressBook> books = addressBookRepository.findAll();
